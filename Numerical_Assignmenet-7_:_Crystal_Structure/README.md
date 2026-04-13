@@ -15,7 +15,7 @@
 
 ```
 .
-├── assignment_final.tex      # LaTeX source of the full assignment
+├── Assignment_Latex.tex      # LaTeX source of the full assignment
 ├── Fig-1.png                 # Figure 1 (300 dpi PNG) — upload to Overleaf
 ├── Fig-1.pdf                 # Figure 1 (vector PDF) — preferred for Overleaf
 ├── generate_fig1.py          # Python script that produces Fig-1.png / Fig-1.pdf
