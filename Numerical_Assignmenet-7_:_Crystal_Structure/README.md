@@ -14,7 +14,7 @@
 ## What this repo contains
 
 ```
-.
+├── Assignment.pdf            # Soutions
 ├── Assignment_Latex.tex      # LaTeX source of the full assignment
 ├── Fig-1.png                 # Figure 1 (300 dpi PNG) — upload to Overleaf
 ├── Fig-1.pdf                 # Figure 1 (vector PDF) — preferred for Overleaf
@@ -97,14 +97,14 @@ This produces both `Fig-1.png` (300 dpi raster) and `Fig-1.pdf` (vector). Either
 
 ## Compiling on Overleaf
 
-1. Upload `assignment_final.tex`, and either `Fig-1.png` or `Fig-1.pdf` (PDF preferred — it scales without pixelation) into the **same folder** in your Overleaf project.
+1. Upload `Assignment_Latex.tex`, and either `Fig-1.png` or `Fig-1.pdf` (PDF preferred — it scales without pixelation) into the **same folder** in your Overleaf project.
 2. The `.tex` file uses `\graphicspath{{./}}` and `\includegraphics{Fig-1}`, so no path changes are needed.
 3. Compile with **pdfLaTeX**.
 
 To compile locally:
 ```bash
-pdflatex assignment_final.tex
-pdflatex assignment_final.tex   # run twice to resolve cross-references
+pdflatex Assignment_Latex.tex
+pdflatex Assignment_Latex.tex   # run twice to resolve cross-references
 ```
 
 ---
